@@ -1,0 +1,20 @@
+def compoundInterest(principal,rate,time):
+    amount=principal*pow((1+rate),time)
+    ci=amount-principal
+    print(ci)
+
+
+
+#amount=principal(1+rate)pow t
+
+#amount=int(input("Enter the amount"))
+#principal=int(input("Enter the principal amount"))
+#ate=int(input("Enter the rate "))
+#time=int(input("Enter the time"))
+principal = int(input("Enter the principal amount: "))
+rate = int(input("Enter rate of interest: "))
+time = int(input("Enter time in years: " ))
+compoundInterest(principal,rate,time)
+
+
+
