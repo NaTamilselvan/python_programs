@@ -1,0 +1,15 @@
+#find a prime a from a list 
+
+def fun(x,y):
+    ls=[]
+    prime(x,y):
+     
+     for i in range(x,y):
+         if(i==0 or i==1):
+            continue
+         else:
+           for j in range(2,int(i/2)+1):
+               if(i%j)==0:
+                  print("The ",i"is not prime")
+                  break
+                else
