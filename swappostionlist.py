@@ -19,6 +19,7 @@ for i in range(k):
         
         
     a[len(a)-1]=tar
+    
 
 
 
