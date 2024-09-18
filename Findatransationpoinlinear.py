@@ -16,6 +16,35 @@ link:https://www.geeksforgeeks.org/problems/find-transition-point-1587115620/1
 
 '''
 
+
+def codeiosolution(l,n):
+    
+    begin=0
+    end=n-1
+    flag=0
+    
+    if len(l)==1 and l[0]==0:
+        return -1
+    
+    while(begin<=end):
+        
+        
+        mid=(begin+end)//2
+        
+        if a[mid]==1 and a[mid-1]==0:
+             return mid
+        elif a[mid]==1:
+            flag=1
+            end=mid-1
+        else:
+            begin=mid+1
+            
+            
+    if flag==0:
+          return -1   
+    
+    
+
 def transaction(l,n):
     
     if len(l)==0:
@@ -42,7 +71,7 @@ def transaction(l,n):
         
  
         
-a=[0,1,0,0]
+a=[0,0,0,0,0,1]
 result=transaction(a, len(a))
 
 print(result)
