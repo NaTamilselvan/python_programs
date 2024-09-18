@@ -11,10 +11,10 @@ def factorial(n):
         
 def factorial2(n):
 
-     return 1 if n==0 or n==1 else n*factorial2(n-1)   
+     return 1 if n==0 or n==1 else n*factorial2(n-1)
 
-
-#print(factorial2(7))
+    
+  
 
 
 #The next program is factorial list 
