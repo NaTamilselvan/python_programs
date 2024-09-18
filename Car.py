@@ -19,7 +19,11 @@ def main():
      print(c1.Name)
      print(c1.prize)
      print(c1.color)
+<<<<<<< HEAD
      
+=======
+      
+>>>>>>> 2347047ace021745da41456624bbbb620e44aeaa
      c1.start_engine()
          
          
